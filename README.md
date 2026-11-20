@@ -78,6 +78,45 @@ El informe completo está en [`reports/informe_diagnostico.md`](reports/informe_
 - Hay nombres de equipos con variantes (`Alavés`/`Deportivo Alavés`, `R. Sociedad`/`Real Sociedad`).
 - No existe la posición final: debe construirse a partir de los puntos por equipo y temporada.
 
+# Proyecto LaLiga
+
+## Objetivo
+
+Analizar los resultados históricos de LaLiga para identificar la relación entre goles anotados, puntos obtenidos y rendimiento de los equipos.
+
+## Dataset
+
+- Archivo: la_liga.csv
+- Registros: 26.558
+- Variables: 11
+
+## Proceso de preparación
+
+- Verificación de duplicados
+- Verificación de valores nulos
+- Estandarización de nombres de equipos
+- Validación de integridad
+
+## Indicadores calculados
+
+1. Promedio de goles por temporada.
+2. Equipos con más goles históricos.
+3. Equipos con más puntos históricos.
+
+## Dataset procesado
+
+data/processed/laliga_clean.csv
+
+## Tecnologías
+
+- Python
+- Pandas
+- Jupyter Notebook
+- Git
+- GitHub
+
 ## Autor
 
 Kevin
+##pregunta analitica
+¿Cómo influyen los goles anotados y los puntos obtenidos en el rendimiento de los equipos de LaLiga durante una temporada?
